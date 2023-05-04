@@ -1,0 +1,4 @@
+Cannot generate into /Users/zhangyujun/CLionProjects/shared_bike/src
+It is already used for project /home/zyj/cppWeb/shared_bike/src
+
+Please either delete it manually or select another generation directory

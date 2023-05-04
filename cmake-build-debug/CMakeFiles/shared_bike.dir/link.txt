@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/gcc/12.2.0/bin/g++-12 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/shared_bike.dir/src/main.cpp.o CMakeFiles/shared_bike.dir/src/common/iniconfig.cpp.o -o shared_bike 
