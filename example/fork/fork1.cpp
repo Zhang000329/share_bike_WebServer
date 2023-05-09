@@ -3,11 +3,14 @@
 //
 #include "unistd.h"
 #include "stdio.h"
+/**
+ * fork创建的父子线程共享变量，子线程是父进程现在变量的拷贝
+ * @return
+ */
  int main(){
     pid_t fpid;
-
-    fpid = fork();
     int count = 0;
+    fpid = fork();
     if(fpid < 0){
         printf("error in fork!");
 
